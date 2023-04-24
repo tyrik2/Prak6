@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <Label Content="Введите значение a:"/>
+            <TextBox Name="txtA"/>
+            <Label Content="Введите значение b:"/>
+            <TextBox Name="txtB"/>
+            <Button Content="Вычислить z" Click="Button_Click"/>
+            <Label Content="Значение z:"/>
+            <TextBox Name="txtZ" IsReadOnly="True"/>
+        </StackPanel>
     </Grid>
 </Window>
